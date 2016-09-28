@@ -183,7 +183,9 @@ function mapTagToDigitalJoin(tag)
 			return "71";
 			break;
 
-
+		case "BUTTON_WATCHMACMINI":
+			return "84";
+			break;
 		case "BUTTON_USEPS3":
 			return "85";
 			break;
@@ -334,6 +336,47 @@ function mapTagToDigitalJoin(tag)
 		case "XBMC_PageDown":
 			return "135";
 			break;
+
+		case "SAM_LIV_PLAY":
+			return "137";
+			break;
+		case "SAM_LIV_STOP":
+			return "138";
+			break;
+		case "SAM_LIV_PAUSE":
+			return "139";
+			break;
+		case "SAM_LIV_RSCAN":
+			return "140";
+			break;
+		case "SAM_LIV_FSCAN":
+			return "141";
+			break;
+		case "SAM_LIV_EXIT":
+			return "142";
+			break;
+		case "SAM_LIV_UP_ARROW":
+			return "143";
+			break;
+		case "SAM_LIV_DN_ARROW":
+			return "144";
+			break;
+		case "SAM_LIV_LEFT_ARROW":
+			return "145";
+			break;
+		case "SAM_LIV_RIGHT_ARROW":
+			return "146";
+			break;
+		case "SAM_LIV_SELECT/ENTER":
+			return "147";
+			break;
+		case "SAM_LIV_SMART_HUB":
+			return "148";
+			break;
+		case "SAM_LIV_RETURN":
+			return "149";
+			break;
+
 
 
 		case "TV_NRK1":
