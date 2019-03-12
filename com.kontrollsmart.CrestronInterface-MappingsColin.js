@@ -1,7 +1,7 @@
 /*!
   @author Colin Coleman
   @title com.kontrollsmart.CrestronInterface-MappingsColin
-  @version 1.1
+  @version 1.2
 */
 
 
@@ -129,6 +129,9 @@ function mapTagToDigitalJoin(tag)
 		case "BUTTON_WATCHSMARTTV":
 			return "41";
 			break;
+		case "BUTTON_LISTENPHONO":
+			return "42";
+			break;
 
 		case "DS_Play":
 			return "51";
@@ -182,7 +185,12 @@ function mapTagToDigitalJoin(tag)
 		case "DS_LinnJazz":
 			return "71";
 			break;
-
+		case "BUTTON_USESWITCH":
+			return "82";
+			break;
+		case "BUTTON_WATCHBLURAY":
+			return "83";
+			break;
 		case "BUTTON_WATCHMACMINI":
 			return "84";
 			break;
