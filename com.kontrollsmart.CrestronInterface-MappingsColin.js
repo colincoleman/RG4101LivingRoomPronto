@@ -1,7 +1,7 @@
 /*!
   @author Colin Coleman
   @title com.kontrollsmart.CrestronInterface-MappingsColin
-  @version 1.2
+  @version 1.3
 */
 
 
@@ -131,6 +131,28 @@ function mapTagToDigitalJoin(tag)
 			break;
 		case "BUTTON_LISTENPHONO":
 			return "42";
+			break;
+
+		case "BUTTON_SURROUND_STEREO":
+			return "44";
+			break;
+		case "BUTTON_SURROUND_DIRECT":
+			return "45";
+			break;
+		case "BUTTON_SURROUND_ALL_CHANNEL_STEREO":
+			return "46";
+			break;
+		case "BUTTON_SURROUND_THX_CINEMA":
+			return "47";
+			break;
+		case "BUTTON_SURROUND_THX_GAME":
+			return "48";
+			break;
+		case "PS_PAGE_UP":
+			return "49";
+			break;
+		case "PS_PAGE_DOWN":
+			return "50";
 			break;
 
 		case "DS_Play":
